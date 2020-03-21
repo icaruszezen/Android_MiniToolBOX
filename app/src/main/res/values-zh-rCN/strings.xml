@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">球球BOX</string>
+    <string name="nav_header_title">球球BOX</string>
+    <string name="nav_header_subtitle">by 溜溜球</string>
+    <string name="menu_home">この主页だ</string>
+    <string name="menu_about">关于球球</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tool.UUID.ToolUUID">
+
+    <TextView
+        android:id="@+id/text_uuid"
+        android:layout_width="352dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/textview_border"
+        android:gravity="center"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_create_uuid"
+        android:layout_width="103dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/btn_bg"
+        android:text="生成UUID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_uuid" />
+
+    <Button
+        android:id="@+id/btn_fz_uuid"
+        android:layout_width="103dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/btn_bg"
+        android:text="复制"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_uuid" />
+</android.support.constraint.ConstraintLayout>
