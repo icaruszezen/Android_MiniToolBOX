@@ -35,7 +35,6 @@ public class ToolUUID extends AppCompatActivity {
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
-            //点击生成按钮时生成UUID
             public void onClick(View v){
                 ClipboardManager cm = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 // 将文本内容放到系统剪贴板里。
