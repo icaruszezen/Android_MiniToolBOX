@@ -18,6 +18,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/btn_DstImage"
+        android:layout_width="118dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
+        android:text="转换灰度图"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_UUID" />
+
+    <Button
         android:id="@+id/btn_UUID"
         android:layout_width="118dp"
         android:layout_height="57dp"

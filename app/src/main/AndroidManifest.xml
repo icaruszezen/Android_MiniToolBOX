@@ -26,6 +26,14 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".tool.DSTIMAGE.ToolDstImage"
+            android:parentActivityName=".MainActivity"
+            android:label="转换灰度图">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
