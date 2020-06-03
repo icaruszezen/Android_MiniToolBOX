@@ -29,6 +29,17 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_UUID" />
 
     <Button
+        android:id="@+id/btn_file"
+        android:layout_width="118dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/btn_bg"
+        android:text="查询文件属性"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ASCII" />
+
+    <Button
         android:id="@+id/btn_UUID"
         android:layout_width="118dp"
         android:layout_height="57dp"
